@@ -1,10 +1,13 @@
 // ==UserScript==
 // @name         Facebook Mindless Scroll Alert
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  Alert user after mindless scrolling on Facebook
 // @author       ChatGPT Bhaiya
 // @match        https://www.facebook.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=facebook.com
+// @updateURL    https://raw.githubusercontent.com/cypherab01/Tampermonkey-Scripts/refs/heads/main/fb-mindless-scroll-alert.js
+// @downloadURL  https://raw.githubusercontent.com/cypherab01/Tampermonkey-Scripts/refs/heads/main/fb-mindless-scroll-alert.js
 // @grant        none
 // ==/UserScript==
 
