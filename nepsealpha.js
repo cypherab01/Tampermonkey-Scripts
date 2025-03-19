@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         NEPSE Chart
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Closing the SastoShare Promo!
 // @author       @cypherab01
 // @match        https://www.nepsealpha.com/nepse-chart
@@ -13,7 +13,7 @@
   "use strict";
 
   // Your code here...
-  const button = document.querySelector("span i.fa-close");
+  const button = document.querySelector("span i.fa.fa-close");
   window.addEventListener("load", () => {
     button.click();
   });
